@@ -1,0 +1,8 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "editor.language.colorizedBracketPairs": [ 
+    
+    ],
+    "editor.autoClosingBrackets": "languageDefined",
+    "liveServer.settings.CustomBrowser": "chrome"
+}

@@ -1,0 +1,703 @@
+
+/* -----RESPONSIVE PART--- */
+
+@media screen and (max-width:991px){
+
+/* ------navbar----- */
+
+    .nav-toggle{
+        display: initial;
+        margin-right: 2vw;
+       
+    }
+    .nav-toggle i{
+        font-size: 1.5rem;
+    }
+    .nav-menu {
+        display: none;
+    }
+
+ /* -------hero------ */
+
+ .hero {
+    height: 90vh;
+}
+ .hero-img img {
+    width: 65%;
+}
+.hero-content {
+    top: 30%;
+    left: 60%;
+}
+.hero-content p {
+    font-size: 2rem;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: .25rem;
+}
+
+/* ------DESCRIPTION---- */
+
+.desc{
+    height: 90vh;
+}
+.desc-container {
+    width: 75%;
+    height: 80%;
+}
+.desc-heading {
+    margin: 1.2rem 0;
+    font-size: 2rem;
+}
+.desc-cont {
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+}
+.desc{
+    height: 90vh;
+}
+.desc-container {
+    width: 75%;
+    height: 70%;
+}
+.text{
+    font-size: 2.5rem;
+    top: 32%;
+    left: -15%;
+}
+
+/* -----SKILL SECTION-- */
+
+.skill-item {
+    height: 15%;
+}
+.skill{
+    height: 85vh;
+}
+/* -----PROJECTS SECTION----- */
+
+.project-heading {
+    font-size: 10vw;
+    left: 10%;
+}
+.rgt-up {
+    width: 32vw;
+    height: 35vh;
+}
+.rgt-dwn {
+    width: 32vw;
+    height: 35vh;
+}
+
+.project{
+    height: 145vh;
+}
+
+/* ----CONTACT SECTION---- */
+
+.contact-container {
+    width: 80%;
+    height: 63%;
+    padding: 0vw 10vw;
+    margin-top: 0vw;
+}
+.contact {
+    padding: 0vw 10vw;
+    height: 92vh;
+}
+.send {
+    width: 12vw;
+    height: 7vh;
+    margin: 2vh 30vw;
+    display: flex;
+    align-items: center;
+}
+
+/* ----FOOTER SECTION---- */
+.footer {
+    height: 43vh;
+    padding: 0rem 0;
+}
+
+}
+
+
+@media  screen and (max-width:767px) {
+
+    /* -----HERO SECTION---- */
+    .hero {
+        height: 70vh;
+    }
+    .hero-content {
+        top: 25%;
+        left: 62%;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .2rem;
+    }
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+    .hero-img img {
+        width: 70%;
+    }
+
+    /* ----SKILLS---- */
+    .skill-item {
+        height: 15%;
+        margin: 1.5vw 0;
+    }
+
+    /* -----EDUCATION SECTION --- */
+
+    .ene-para{
+        margin: .5vw .5vw;
+        font-size: 1rem;
+    }
+    .ene-title {
+        height: 8vh;
+        width: 63vw;
+        margin-left: 12vw;
+    }
+    .ene-title h1{
+        font-size: 1.5rem;
+    }
+    .ene-container {
+        margin: 2vw 12vw;
+    }
+
+    /* ----PROJECT SECTION--- */
+
+    .project-heading {
+        font-size: 8vw;
+        left: 12%;
+    }
+    .project-left {
+        height: 55vh;
+        padding: 1.5vw 1vw;
+    }
+    .project-container {
+        padding: 3vw 5vw;
+        gap: 2vw;
+        flex-direction: column;
+    }
+    .project-left img {
+        width: 50vw;
+        margin: 0 3vw;
+    }
+    .project-left {
+        width: 60vw;
+    }
+    .project-left P {
+        margin-top: 23vw;
+        font-size: 1.5vw;
+        padding: 0 3vw;
+    }
+    .project-right{
+        display: flex;
+    }
+    .rgt-up, .rgt-dwn {
+        width: 30vw;
+        height: 28vh;
+        margin-right: .5vw;
+    }
+    .project {
+        height: 140vh;
+    }
+
+    .more-project p {
+        font-size: 2vw;
+    }
+    .more-project {
+        height: 7vh;
+        margin: 0px 39vw;
+    }
+
+    /* ----CONTACT SECTION--- */
+
+    .contact-heading{
+        font-size: 4vw;
+        -webkit-text-stroke: 0.1vw #fff;
+        -webkit-text-fill-color: #fff;
+        letter-spacing: .8rem;
+        left: 16%;
+    }
+    .contact-container {
+        width: 90%;
+        height: 75%;
+        padding: 2vw 14vw;
+        margin-top: 2vw;
+    }
+    .contact {
+        padding: 1vw 10vw;
+        height: 85vh;
+    }
+    .name input {
+     width: 42vw;
+    }
+    .name {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0vh;
+    }
+    .phone  h4{
+        font-size: 2vw;
+    }
+    .email  h4{
+        font-size: 2vw;
+    }
+    .location p{
+        font-size: 2vw;
+    }
+    .right p{
+        font-size: 2vw;
+    }
+
+}
+
+@media  screen and (max-width:491px) {
+
+    /* -----NAVBAR--- */
+    .nav-toggle i {
+        font-size: 1.2rem;
+    }
+
+    /* ----HERO SECTION--- */
+
+    .header h1 {
+        font-size: 1.6rem;
+    }
+    .hero-img img {
+        width: 92%;
+        left: 0%;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .hero {
+        height: 70vh;
+    }
+    .hero-content {
+        top: 64vw;
+        left: 18vw;
+    }
+    .hero-content {
+        top: 63vw;
+        left: 5vw;
+    }
+
+    /* ----SKILL-- */
+
+    .skill {
+        height: 70vh !important;
+    }
+    .text {
+        left: -24% !important;
+        font-size: 1.8rem !important;
+    }
+    .box {
+        width: 4vw;
+        height: 3vw;
+        margin: 1.5rem;
+        border-radius: 0.3vw;
+    }
+
+    /* ---- EDU AND EXP--- */
+
+    .ene-title h1 {
+        font-size: 1rem;
+    }
+    .ene-heading {
+        font-size: 1rem;
+    }
+    .ene-para {
+        margin: 0.4vw 0.4vw;
+        font-size: .8rem;
+    }
+
+    /* ----PROJECT SECTION---- */
+
+    .project-heading {
+        font-size: 7vw;
+        left: 10%;
+    }
+    .rgt-up, .rgt-dwn{
+        height: 30vh !important;
+    }
+
+    .project {
+        height: 146vh !important;
+    }
+    .more-project {
+        height: 4vh !important;
+    }
+    .more-project p {
+        font-size: 1.5vw;
+    }
+
+    /* ----CONTACTS---- */
+
+    .send p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .contact {
+        padding: 0vw 11vw;
+        height: 70vh;
+    }
+
+    /* ---FOOTER SECTION--- */
+
+    .footer{
+        height: 65vh;
+    }
+    .right h4{
+        font-size: 4vw;
+    }
+    .social{
+        margin-top: 2vw;
+        display: flex;
+    }
+    .location{
+        margin-bottom: 0px;
+    }
+    .phone h4{
+        padding-bottom: 0px;
+    }
+    .email h4{
+        padding-bottom: 0px;
+    }
+    .left{
+        align-items: center;
+    }
+    .right{
+        align-items: center;
+        padding: 1rem 7rem;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0px;
+    }
+}
+
+
+@media  screen and (max-width:436px) {
+
+    /* ---HERO SECTION--- */
+
+    .hero{
+        height: 60vh !important;
+    }
+    
+    /* ----PROJECTS--- */
+    .project {
+        height: 141vh !important;
+    }
+}
+
+
+
+
+@media  screen and (max-width:395px) {
+
+    /* -----HERO SECTION--- */
+    .hero {
+        height: 62vh;
+    }
+    .hero-content {
+        top: 69vw;
+        left: 5vw;
+    }
+
+    /* ----DESCRIPTION--- */
+
+    .desc-container h1{
+        font-size: 1.3rem;
+    }
+    .desc-container p {
+        font-size: .8rem;
+    }
+    .text{
+        font-size: 1.5rem !important;
+        left: -27% !important;
+    }
+
+    /* ----SKILLS--- */
+
+    .skill {
+        height: 65vh !important;
+    }
+    .about-skill p {
+        font-size: .8rem !important;
+    }
+    .box {
+        width: 3.5vw;
+        height: 2.8vw;
+        margin: 1rem;
+        border-radius: 0.3vw;
+    }
+
+    /* -----EDU AND EXP---- */
+
+    .ene-title h1 {
+        font-size: .8rem;
+    }
+    .ene-heading {
+        font-size: .8rem;
+    }
+    .ene-title {
+        height: 7vh;
+        width: 65vw;
+        margin-left: 11.5vw;
+    }
+
+    /* ----PROJECT-- */
+
+    .project-heading{
+        display: none;
+    }
+    .project h1 {
+        text-align: center;
+        font-size: 10vw;
+        margin-top: 0vw !important;
+    }
+    .project-left P {
+        margin-top: 25vw;
+        font-size: 2.5vw;
+        padding: 0 7vw;
+    }
+    .rgt-up, .rgt-dwn {
+        height: 25vh !important;
+        margin: 1vw 0;
+    }
+    .more-project {
+        height: 3vh !important;
+    }
+
+    /* ---CONTACTS--- */
+
+    .contact {
+        height: 70vh;
+    }
+    .send {
+        width: 10vw;
+        height: 3vh;
+    }
+    .send p {
+        font-size: .7rem;
+    }
+}
+
+
+@media  screen and (max-width:295px) {
+
+    /* -----HERO---- */
+    .header h1 {
+        font-size: 1.4rem;
+    }
+    .hero-content {
+        top: 65vw;
+        left: 8vw;
+    }
+    .hero {
+        height: 55vh !important;
+    }
+
+    /* ---DESC SECTION--- */
+    .desc-container {
+        height: 70% !important;
+    }
+    .desc-container h1 {
+        font-size: 1rem;
+        margin: .5rem;
+    }
+    .desc-container p {
+        font-size: .6rem;
+    }
+
+    /* ----SKILL SECTION--- */
+
+    .text{
+        top: 0 !important;
+        transform: none !important;
+        letter-spacing: .3rem !important;
+        left: 20vw !important;
+        -webkit-text-stroke: 0.2vw #fff;
+        -webkit-text-fill-color: #fff;
+        font-size: 1rem !important;
+    }
+    .skill {
+        height: 55vh !important;
+    }
+    .skill-container{
+        top: 63%;
+        left: 44%;
+    }
+
+     /* -----EDU AND EXP SECTION--- */
+
+
+    .ene-title h1 {
+        font-size: .5rem;
+    }
+    .ene-heading {
+        font-size: .5rem;
+    }
+    .ene-para {
+        margin: 07vw 0.4vw;
+        font-size: .6rem;
+    }
+    .ene-title {
+        height: 4vh;
+        width: 71vw;
+        margin-left: 10vw;
+    }
+    .ene {
+        padding: 1vw 3vw;
+    }
+
+    /* ----PROJECT SECTION-- */
+
+    .project-left {
+        height: 35vh;
+    }
+    .project-left img {
+        width: 60vw !important;
+        margin: 0px 0vw !important;
+    }
+    .project-left P {
+        margin-top: 32vw;
+        font-size: 3vw;
+        padding: 0 4vw;
+    }
+    .project-left {
+        height: 34vh !important;
+    }
+    .rgt-up, .rgt-dwn {
+        height: 15vh !important;
+    }
+    .project {
+        height: 110vh !important;
+    }
+}
+@media  screen and (max-width:215px) {
+    .text{
+        font-size: .6rem !important;
+    }
+}
+@media  screen and (max-width:600px) {
+
+    /* ---HERO-- */
+    .hero {
+        height: 70vh;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .hero-content h1 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        letter-spacing: .2rem;
+    }
+
+    /* -----DESC SECTION--- */
+    .desc {
+        height: 75vh;
+    }
+
+    .desc-container {
+        height: 80%;
+    }
+    .desc-cont {
+        font-size: 1rem;
+    }
+    .desc-heading {
+        margin: 1rem 0;
+        font-size: 1.7rem;
+    }
+
+
+    /* -----SKILLS--- */
+    .text{
+        left: -20%;
+        font-size: 2rem;
+    }
+    .skill {
+        height: 75vh;
+    }
+    .about-skill p {
+        font-size: 1rem;
+    }
+    .skill-item {
+        height: 15%;
+        margin: 1vw 0;
+    }
+
+    /* ---EDU AND EXP--- */
+    .ene-container{
+        grid-template-columns: 1fr;
+    }
+    .ene-common {
+        width: 64vw;
+        height: 36vh;
+        margin: 1.5vw 0vw;
+    }
+
+    /* ---PROJECT--- */
+    .project-left img {
+        width: 46vw;
+        margin: 0px 7vw;
+    }
+    .project-left {
+
+        height: 40vh;
+    }
+    .project-right{
+        flex-direction: column;
+    }
+    .project {
+        height: 163vh;
+    }
+    .project h1 {
+        margin-top: 10vw;
+        font-size: 4rem;
+    }
+    .more-project {
+        width: 20vw;
+        height: 6vh;
+        margin: 0 36vw;
+    }
+
+    /* -----CONTACTS--- */
+    .send {
+        width: 11vw;
+        height: 6vh;
+    }
+    .contact-container {
+        width: 74vw;
+        height: 55vh;
+    }
+    .contact {
+        padding: 0vw 11vw;
+        height: 75vh;
+    }
+    .name input {
+        width: 45vw;
+    }
+    .email input {
+        width: 45vw; 
+    }
+    .message input {
+        width: 45vw;
+        height: 20vh;
+    }
+    .send {
+        margin: 0 30vw;
+    }
+}
+
